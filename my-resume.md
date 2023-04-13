@@ -1,24 +1,55 @@
-# My Resume
+# Onur Ravli Resume - April 2023
 
-This repository contains the source code for my resume, which is written in Markdown format and converted to PDF using GitHub Actions.
+## Personal Info
 
-[![Convert resume to PDF](https://github.com/onurravli/my-resume/actions/workflows/convert-to-pdf.yaml/badge.svg)](https://github.com/onurravli/my-resume/actions/workflows/convert-to-pdf.yaml)
+**Place and Date of Birth**: Istanbul, 23rd June 2001
 
-## Usage
+**Languages**: Turkish (native language), English (working proficiency), French (learning), German (learning)
 
-To generate a PDF version of the resume, simply push any changes to the `my-resume.md` file to the `main` branch of this repository. The GitHub Actions workflow will automatically convert the Markdown file to PDF and store it as an artifact, which you can download from the Actions tab.
+**Contact**: onur@ravli.co
 
-Additionally, the workflow will move the generated PDF file to the `output` folder in the root directory of the repository. You can use this folder to store multiple versions of the resume, or to make it available for download via your website or other channels.
+**LinkedIn**: https://linkedin.com/in/onurravli
 
-## Dependencies
+**GitHub**: https://github.com/onurravli
 
-This GitHub Actions workflow relies on the following dependencies:
+## Education
 
--   `pandoc`: A document converter that can convert files from one format to another. Used to convert Markdown to PDF.
--   `texlive-xetex`: A TeX distribution that includes the XeTeX engine, which is used by `pandoc` to generate PDFs with custom fonts and styles.
+**Bachelor of Engineering**: Konya Technical University, Department of Computer Science and Engineering, 2022 – Present
 
-These dependencies are installed automatically by the GitHub Actions runner, but are also cached to improve workflow performance.
+**Bachelor of Engineering**: Konya Technical University, Department of Electrical and Electronics Engineering, 2020 – 2022 (3.58/4, drop out)
 
-## License
+**Math and Science Education**: Melikgazi Mustafa Eminoglu Anatolian High School, 2015 – 2019 (85.9/100)
 
-This project is licensed under the MIT License. See the `LICENSE` file for details.
+## Abilities and Tech Stack
+
+**Programming Languages**: C/C++, JavaScript/TypeScript, Python, Java, Dart, Rust, Go, MATLAB, Bash
+
+**Backend Frameworks**: Node.js, Flask, Express
+
+**Frontend Frameworks/Libraries**: React, Next.js, Flutter, Swing
+
+**Other Tools**: Git VCS, REST API, BeautifulSoup, Nmap, Setoolkit, Wireshark
+
+**Markup Language and Tools**: HTML, CSS, Sass, Markdown
+
+**Operating Systems**: Arch Linux Based GNU/Linux, Debian Based GNU/Linux, Windows
+
+**Graphic Design Software**: Inkscape, GIMP, Adobe Photoshop, Adobe Illustrator
+
+**Database Systems**: MySQL
+
+## Scholarships
+
+**TÜBİTAK BİÇABA Scholarship Program**: Student scholar in Explosive Circuit Detection from X-Ray Images Using Ensemble and Deep Learning Techniques Project, April 2022 – October 2023
+
+## Memberships
+
+**UCTEA Chamber of Electrical Engineering**: 2020 – 2023
+
+**Konya Technical University, Artificial Intelligence, and Image Processing Community**: 2021 – 2022
+
+**Amazon AWS**: 2022 – Present
+
+**IEEE Student Branch**: 2022 – Present
+
+**GitHub Developer Program**: 2020 – Present
