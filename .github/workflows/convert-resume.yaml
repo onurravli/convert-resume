@@ -1,0 +1,31 @@
+name: Convert resume to PDF
+on:
+    push:
+        branches:
+            - main
+jobs:
+    build:
+        runs-on: ubuntu-latest
+        steps:
+            - name: Checkout code
+              uses: actions/checkout@v2
+            - name: Cache APT packages
+              uses: actions/cache@v2
+              with:
+                  path: /var/cache/apt/archives
+                  key: ${{ runner.os }}-apt-${{ hashFiles('**/packages-lock.json') }}
+                  restore-keys: |
+                      ${{ runner.os }}-apt-
+            - name: Install neccessary tools.
+              run: sudo apt-get install pandoc texlive-latex-base texlive-fonts-recommended texlive-extra-utils texlive-latex-extra
+            - name: Convert Markdown to PDF
+              run: pandoc my-resume.md -o my-resume.pdf
+            - name: Upload PDF artifact
+              uses: actions/upload-artifact@v2
+              with:
+                  name: convert-resume
+                  path: my-resume.pdf
+            - name: Download PDF artifact
+              uses: actions/download-artifact@v2
+              with:
+                  name: convert-resume
